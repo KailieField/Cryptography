@@ -1,0 +1,61 @@
+# Byte-compiled / Cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & Debugging
+logs/
+*.log
+debug.log
+
+# macOS hidden files
+.DS_Store
+
+# Editor files (VS Code, PyCharm, JetBrains, etc.)
+.vscode/
+.idea/
+*.iml
+
+# OS-Specific Files
+Thumbs.db  # Windows thumbnail cache
+.DS_Store  # macOS system file
+
+# Python environment configuration
+Pipfile
+Pipfile.lock
+pyvenv.cfg
+
+# Testing and Coverage Reports
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Git ignores private keys (security best practice)
+*.pem
+*.key
